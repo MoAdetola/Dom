@@ -1,0 +1,34 @@
+.cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .decrease, .increase {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .delete, .like {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
